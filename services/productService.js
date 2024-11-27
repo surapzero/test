@@ -1,5 +1,5 @@
 const db = require("../utils/db");
-const Product = require("../models/ProductModel");
+const Product = require("../models/productModel");
 
 //สร้าง function ในการดึงข้อมูลผู้ใช้ทั้งหมดออกมา
 const getAllproduct = async () => {
